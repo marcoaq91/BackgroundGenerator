@@ -1,11 +1,22 @@
 {
   "name": "backgroundgenerator",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoaq91/BackgroundGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcoaq91/BackgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/marcoaq91/BackgroundGenerator#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
